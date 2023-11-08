@@ -1,17 +1,41 @@
 {
-  "name": "aws-elastic-beanstalk-express-js-sample",
-  "version": "1.0.0",
-  "description": "Sample Node.js (Express) app for AWS Elastic Beanstalk",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
+  "name": "meiligao",
+  "version": "0.0.8",
+  "description": "Nodejs implementation of Meiligao communication protocol",
+  "author": "Alexander Vasin <hello@alvass.in>",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aws-samples/aws-elastic-beanstalk-express-js-sample.git"
+    "url": "git+https://github.com/alvassin/nodejs-meiligao.git"
   },
-  "license": "MIT-0",
+  "bugs": {
+    "url": "https://github.com/alvassin/nodejs-meiligao/issues"
+  },
+  "keywords": [
+    "Meiligao",
+    "Meitrack",
+    "tracker",
+    "gps",
+    "GT30i",
+    "GT60",
+    "VT300",
+    "VT310",
+    "VT400"
+  ],
   "dependencies": {
-    "express": "^4.17.3"
+    "crc": "*",
+    "extend": "*"
+  },
+  "analyze": true,
+  "license": "MIT",
+  "homepage": "https://github.com/alvassin/nodejs-meiligao#readme",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
